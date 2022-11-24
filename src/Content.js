@@ -23,41 +23,38 @@ import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
+import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
+import { TbSmartHome } from "react-icons/tb";
+import { BiUser } from "react-icons/bi";
+import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
   nav: [
     {
-      link: "/",
-      name: "Home",
+      link: "#home",
+      icon: TbSmartHome,
     },
     {
-      link: "/",
-      name: "Skills",
+      link: "#skills",
+      icon: BiUser,
     },
     {
-      link: "/",
-      name: "Services",
+      link: "#services",
+      icon: RiServiceLine,
     },
     {
-      link: "/",
-      name: "Projects",
+      link: "#projects",
+      icon: RiProjectorLine,
     },
     {
-      link: "/",
-      name: "Testimonials",
-    },
-    {
-      link: "/",
-      name: "Hire Me",
-    },
-    {
-      link: "/",
-      name: "Contact Me",
+      link: "#contact",
+      icon: MdOutlinePermContactCalendar,
     },
   ],
   hero: {
@@ -187,7 +184,8 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    imgage: Hireme_person,
+    image1: Hireme_person,
+    image2: Hireme_person2,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
@@ -195,9 +193,21 @@ export const content = {
     title: "Contect Me",
     subtitle: "GET IN TOUCH",
     social_media: [
-      { text: "codeaprogram@gmail.com", icon: GrMail },
-      { text: "+91 1234 56778", icon: MdCall },
-      { text: "codeaprogram", icon: BsInstagram },
+      {
+        text: "codeaprogram@gmail.com",
+        icon: GrMail,
+        link: "mailto:codeaprogram@gmail.com",
+      },
+      {
+        text: "+91 1234 56778",
+        icon: MdCall,
+        link: "https://wa.me/1234567890",
+      },
+      {
+        text: "codeaprogram",
+        icon: BsInstagram,
+        link: "https://www.instagram.com/codeaprogram/",
+      },
     ],
   },
   Footer: {
