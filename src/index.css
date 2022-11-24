@@ -10,6 +10,9 @@
 @tailwind utilities;
 
 @layer base {
+   html {
+    scroll-behavior: smooth;
+  }
   h1,
   h2,
   h3,
@@ -41,6 +44,10 @@
   }
   button {
     @apply font-Poppins;
+  }
+  input,
+  textarea {
+    @apply bg-transparent outline-none font-Poppins;
   }
 }
 
