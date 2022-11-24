@@ -9,14 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+   "@emailjs/browser": "^3.9.1",
+    "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
     "react-modal": "^3.16.1",
     "swiper": "^8.4.4"
   },
   "devDependencies": {
-    "@types/react": "^18.0.24",
+   "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^10.4.13",
@@ -25,3 +28,4 @@
     "vite": "^3.2.3"
   }
 }
+
