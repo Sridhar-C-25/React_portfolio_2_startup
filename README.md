@@ -1,27 +1,38 @@
-# React_portfolio_2_startup
-+ Vite + React + tailwind
+# React Js Portfolio Website
 
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm install`
 
 ### `npm run dev`
 
-# You Learn:
-+ react js hooks
-+ folder structure
-+ tailwind css
-+ swiper js
-+ react icons
-+ react js packages (ex:react-modal)
-+ email js
-+ aos scroll animation
-+ and more....
+<br />
 
-# live preview link
-https://codeaprogram-portfolio.web.app/
+> Youtube Channel -
+> Subscribe [Code A Program](https://www.youtube.com/@CodeAProgram) Channel
 
-# Startup repository link
-https://github.com/Sridhar-C-25/React_portfolio_2_startup
+> Video Link -
+> [Watch Now](https://www.youtube.com/watch?v=YpFK4hUZ-NM)
+
+> Go To [Live Preview](https://codeaprogram-portfolio.web.app/)
+
+> Startup [repository link](https://github.com/Sridhar-C-25/React_portfolio_2_startup)
+
+## You Learn
+
+- react js hooks
+- folder structure
+- tailwind css
+- swiper js
+- react icons
+- react js packages (ex:react-modal)
+- email js
+- aos scroll animation
+- and more....
+
+---
 
 # packages:
 + tailwind css - https://tailwindcss.com/docs/installation
